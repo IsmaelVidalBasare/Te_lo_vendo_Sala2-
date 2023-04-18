@@ -1,0 +1,38 @@
+#banner {
+  min-height: 30vh;
+  background-image: url('../img/bg-banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#banner span {
+  background-color: rgb(223, 203, 203, 0.5);
+  box-shadow: 4px 4px 24px black, 8px 8px 36px gray;
+}
+
+.content {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+table a {
+  color: black !important;
+}
+
+table a:hover {
+  color: red !important;
+}
+
+nav a {
+  transition: all 500ms ease-in-out;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  text-shadow: 4px 8px 12px rgb(248, 244, 244), -4px 8px 12px rgb(177, 152, 152);
+}
+
+.resaltar {
+  background-color: white !important;
+  color: black !important;
+}
